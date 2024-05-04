@@ -18,6 +18,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  flex-direction: column;
 }
 
 nav ul{
@@ -29,6 +30,28 @@ nav ul{
     color: darkgray
 }  
 
+footer {
+  background-color: var(--detail);
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.about-me p {
+  line-height: 1.5;
+  margin: 10px;
+  margin-left: 50px;
+}
+.work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}   
+
 .header {
   display: flex;
   justify-content:space-between;
@@ -38,22 +61,26 @@ nav ul{
   color: darkgrey;
 }
 
-.card {
-  flex: 1 0 0;
+article {
+  flex: 1 0 100px;
   text-align: center;
-  border-style: solid;
-  border-width: 5px;
-  border-color: plum;
+  margin: 15px;
 }
 
-.card header {
+.subhead {
   background-color: plum;
   color: black;
   padding: 15px;
+  position: absolute;
 }
 
 .card img {
-  flex-direction: row;
   width: 100%;
-  padding:0
+  padding:0;
+  min-width: 400px;
+  border: 5px solid plum;
+}
+
+#project-1 {
+  min-width: 75%;
 }
