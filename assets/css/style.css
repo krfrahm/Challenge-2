@@ -1,0 +1,59 @@
+:root {
+    --detail: rgb(62, 88, 62);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
+main{
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgrey;
+  background-color:cornsilk;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
+    text-decoration: none;
+    color: darkgray
+}  
+
+.header {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: var(--detail);
+  color: darkgrey;
+}
+
+.card {
+  flex: 1 0 0;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: plum;
+}
+
+.card header {
+  background-color: plum;
+  color: black;
+  padding: 15px;
+}
+
+.card img {
+  flex-direction: row;
+  width: 100%;
+  padding:0
+}
