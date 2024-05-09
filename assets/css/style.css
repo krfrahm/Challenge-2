@@ -100,12 +100,12 @@ article {
   padding: 30px;
 }
 
-a {
+nav a {
   color: darkgrey;
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   color: maroon;
 }
 
