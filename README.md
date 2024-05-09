@@ -7,7 +7,7 @@ This is a sample portfolio page. It contains images and links to "projects", the
 ## Usage
 
 For repository: https://github.com/krfrahm/challenge-2.git
-For website: http://krfrahm.github.io/challenge-2/
+For website: https://krfrahm.github.io/Challenge-2/
 
 
 ## Credits
